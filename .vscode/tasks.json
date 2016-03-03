@@ -1,0 +1,26 @@
+{
+	"version": "0.1.0",
+	"command": "gulp",
+	"isShellCommand": true,
+	"args": [
+		"--no-color"
+	],
+	"tasks": [
+		{
+			"taskName": "tsc-compile",
+			"isBuildCommand": true,
+			"showOutput": "always",
+			"problemMatcher": "$tsc"
+		},
+		{
+			"taskName": "tsc-watch",
+			"showOutput": "always",
+			"problemMatcher": "$tsc-watch"
+		}
+		/* ,{
+			"taskName": "node-run",
+			"showOutput": "always",
+			"args": ["${file}"]
+		} */
+	]
+}

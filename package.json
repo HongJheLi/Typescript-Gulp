@@ -1,0 +1,16 @@
+{
+  "name": "hellovscode",
+  "version": "1.0.0",
+  "description": "TypeScript and Node using VS Code.",
+  "main": "dest/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "readme": "readme.md",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-tsc": "^1.1.1"
+  }
+}
